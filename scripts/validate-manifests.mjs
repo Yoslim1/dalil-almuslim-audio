@@ -40,11 +40,13 @@ async function main() {
     ids.add(entry.id);
     assert(entry.coverage === "verified-ayah-timings", `${entry.id}: unsupported coverage claim`);
     assert(entry.status === "published", `${entry.id}: only published manifests may be listed`);
-    const manifestPath = path.join(root, entry.manifestPath);
+    const manifestPath = path.join(root, "reciters", entry.id, "manifest.json");
     const manifest = await readJson(manifestPath);
     assert(manifest.format === "dalil-audio-reciter/v1", `${entry.id}: unsupported reciter format`);
     assert(manifest.reciter?.id === entry.id, `${entry.id}: manifest identifier mismatch`);
     assert(manifest.reciter?.license?.name && manifest.reciter?.license?.url && manifest.reciter?.license?.attribution, `${entry.id}: missing license attribution`);
+    const attribution = await readFile(path.join(root, "attribution", `${entry.id}.md`), "utf8").catch(() => "");
+    assert(attribution.includes(manifest.reciter.id) || attribution.includes(manifest.reciter.nameAr), `${entry.id}: missing attribution record`);
     assert(Array.isArray(manifest.chapters) && manifest.chapters.length > 0, `${entry.id}: no chapter data`);
     manifest.chapters.forEach((chapter) => validateTimings(entry.id, chapter));
   }

@@ -1,5 +1,14 @@
 {
   "format": "dalil-audio-library/v1",
   "version": "0.1.0",
-  "reciters": []
+  "reciters": [
+    {
+      "id": "aaqib-azeez",
+      "nameAr": "عاقب عزيز",
+      "manifestUrl": "https://raw.githubusercontent.com/Yoslim1/dalil-almuslim-audio/main/reciters/aaqib-azeez/manifest.json",
+      "coverage": "verified-ayah-timings",
+      "status": "published",
+      "availableChapters": [1]
+    }
+  ]
 }

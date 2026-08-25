@@ -1,0 +1,66 @@
+{
+  "format": "dalil-audio-reciter/v1",
+  "version": "0.1.0-pilot",
+  "reciter": {
+    "id": "aaqib-azeez",
+    "nameAr": "عاقب عزيز",
+    "nameEn": "Aaqib Azeez",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Aaqib Azeez, Chapter 1 Al-Fatiha (Mujawwad), Wikimedia Commons, CC BY-SA 4.0"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "downloadUrl": "https://github.com/Yoslim1/dalil-almuslim-audio/releases/download/v0.1.0-pilot/aaqib-azeez-001.mp3",
+      "sha256": "a819a37b86473f01d8f8ed477035bd737bde8530e6efc9486fe9448084bf0bdf",
+      "durationMs": 76968,
+      "ayahs": [
+        {
+          "ayah": 1,
+          "startMs": 400,
+          "endMs": 7800,
+          "textSha256": "d79757aeb50b076c3cd35a607c5734a629d4e774e9119e730a56894af606e8ff"
+        },
+        {
+          "ayah": 2,
+          "startMs": 7800,
+          "endMs": 17700,
+          "textSha256": "fd8fcce4c30297033a00a97b0fabb53a38b6e0322e24b2ec5953c1735f0fa6c2"
+        },
+        {
+          "ayah": 3,
+          "startMs": 17700,
+          "endMs": 24900,
+          "textSha256": "46755002bb6e7a07aac7af8cc6fb1e2dd3079416055dfd6f8b3a0d6fa91e3271"
+        },
+        {
+          "ayah": 4,
+          "startMs": 24900,
+          "endMs": 29900,
+          "textSha256": "3bff1cc342957cdc316d4ca87daa941bbd0144e3375e2addb353253aa2dd2ef0"
+        },
+        {
+          "ayah": 5,
+          "startMs": 29900,
+          "endMs": 40400,
+          "textSha256": "804271f513db301916835f17b15a608ad40d0ec7bb6b3ead99a040869d335072"
+        },
+        {
+          "ayah": 6,
+          "startMs": 40400,
+          "endMs": 49900,
+          "textSha256": "eec9a63381f17f7a2f6143bf42ac84c48cf3a87f98f9e68659ead77ee36d44d1"
+        },
+        {
+          "ayah": 7,
+          "startMs": 49900,
+          "endMs": 73400,
+          "textSha256": "3bc837f5e1f7593d670cf8eb46d24c7ebc79d97a0568b604a53b8a2bd113aaa8"
+        }
+      ]
+    }
+  ]
+}
