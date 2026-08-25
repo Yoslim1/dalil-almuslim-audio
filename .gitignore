@@ -1,0 +1,8 @@
+# ملفات الصوت لا تدخل Git history؛ تنشر فقط كمرفقات GitHub Releases بعد التحقق.
+*.mp3
+*.m4a
+*.ogg
+*.wav
+*.flac
+downloads/
+reports/
