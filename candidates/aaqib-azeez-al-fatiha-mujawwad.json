@@ -1,0 +1,16 @@
+{
+  "status": "pending-ayah-timings",
+  "reciter": {
+    "id": "aaqib-azeez",
+    "nameAr": "عاقب عزيز",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Aaqib Azeez, Wikimedia Commons"
+    }
+  },
+  "chapter": 1,
+  "audioSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Chapter_1%2C_Al-Fatiha_%28Mujawwad%29_-_Recitation_of_the_Holy_Qur%27an.mp3",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapter_1,_Al-Fatiha_(Mujawwad)_-_Recitation_of_the_Holy_Qur%27an.mp3",
+  "reasonNotPublished": "ملف سورة مرخص، لكن لا توجد توقيتات آيةً بآية مدققة؛ لذلك لا يطابق معيار مكتبة دليل المسلم بعد."
+}
